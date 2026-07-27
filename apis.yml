@@ -1,8 +1,27 @@
 aid: fourier
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/fourier.png
 name: Fourier
-description: Fourier is a company surfaced as a portfolio company of general-catalyst, idg-capital and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  Fourier is an energy technology company building on-site, on-demand hydrogen
+  production systems. Its core product is a modular, scalable device that generates hydrogen
+  where it is needed, removing the transport and storage barriers of conventional hydrogen
+  supply. Fourier targets three application areas: long-duration distributed storage for
+  renewable energy, alternative fuels for heavy transportation, and cleaner feedstock for
+  chemical and manufacturing industries. The company commercially launched its onsite
+  hydrogen system in late 2025 and raised an $18.5M Series A led by Paramark Ventures and
+  General Catalyst. Fourier is a hardware and infrastructure company and does not currently
+  publish a public API, developer portal, SDKs, or other software developer surface.
 url: https://raw.githubusercontent.com/api-evangelist/fourier/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,12 +32,31 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Energy
+- Hydrogen
+- Clean Energy
+- Climate Tech
+- Infrastructure
+- Hardware
+- Sustainability
 apis: []
+common:
+- type: Website
+  url: https://www.fourier.earth
+- type: Blog
+  url: https://www.fourier.earth/journal
+- type: Careers
+  url: https://www.fourier.earth/careers
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
